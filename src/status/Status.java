@@ -25,7 +25,10 @@ public class Status {
     {
     Scanner in =new Scanner(System.in);
     System.out.println("Enter the user status code (zero,one,two,three) in string");
-    String code = in.next();
+    
+    
+    System.out.println("Enter the user status code (1-4) as an Int");
+    int code = in.nextInt();
     StausUser t= new StausUser();
     t.statusDetail(code); 
     }
